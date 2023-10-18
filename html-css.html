@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<INPUT type="button" class = "buttonstyle" value="Window" OnClick="alert(window.status);">
+<INPUT type="button" class = "buttonstyle"value="Navigator" OnClick="alert(navigator.appVersion);">
+<INPUT type="button" class = "buttonstyle" value="Location" OnClick="alert(location.href	);">
+<INPUT type="button" class = "buttonstyle" value="Screen" OnClick="alert('Размер экрана: ' + screen.width + ' x ' + screen.height);">
+
+
+<style>
+  .image {
+    position: absolute;
+    margin: 100px 0px 0px  300px;
+    width: 30%;
+    height: 30%;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>История создания ВАЗ 2114</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+  <script type="text/javascript">alert(document.lastModified)
+function changeStyle() {
+      var p = document.getElementById("second");
+      p.style.paddingRight = "3cm";
+      p.style.textIndent = "2.5cm";
+    }
+
+    function restoreStyle() {
+      var p = document.getElementById("second");
+      p.style.paddingRight = "1.5cm";
+      p.style.textIndent = "0.7cm";
+    }
+function hideMiddleImage() {
+  var middleImage = document.getElementsByName("image2")[0];
+  middleImage.style.display = "none";
+}
+
+function showMiddleImage() {
+  var middleImage = document.getElementsByName("image2")[0];
+  middleImage.style.display = "block";
+}
+
+function swapLayers() {
+  var topImage = document.getElementsByName("image1")[0];
+  var bottomImage = document.getElementsByName("image3")[0];
+  
+  var tempZIndex = topImage.style.zIndex;
+  topImage.style.zIndex = bottomImage.style.zIndex;
+  bottomImage.style.zIndex = tempZIndex;
+}
+
+// Функция для переключения стиля при наведении и отведении мыши
+    function toggleCellStyle(cell) {
+      if (cell.classList.contains("table-cell")) {
+        cell.className = "table-cell-alternate";
+      } else {
+        cell.className = "table-cell";
+      }
+  }
+
+
+</script>
+</head>
+
+<body>
+&nbsp;<div class="text">
+    <main>
+     <h1>Создание модели ВАЗ 2114</h1>
+         <font onmouseover="this.style.color='red';this.style.fontFamily='Verdana'" onmouseout="this.style.color='black'; this.style.fontFamily='Times New Roman'; this.style.fontSize='13pt'"><p>Популярнейший в России хетчбек ВАЗ 2114 был создан на базе «девятки». Впрочем, это прекрасно видно невооруженным взглядом, ведь машины внешне очень похожи. Автомобиль был представлен искушенной публике в 2001 году, но его серийный выпуск начался двумя годами позже.
+          История модели ВАЗ 2114: всегда модная "четырка"</font> <br> </p>
+ 
+	        <p id="second" onmouseover="changeStyle()" onmouseout="restoreStyle()">Своим появлением «четырнадцатая» обязана моральному износу «девятки» и ее техническому устареванию. Авто буквально «кричало»: «Модернизируйте меня!» и вазовцы не стали этому препятствовать. На заводе разработали дизайн машины, немного подрихтовали внутренности и отправили новинку в плавание по просторам родины.
+<br> </p>
+
+	<p>Как создавалась «четырнадцатая» <br> </p>
+
+	<p>Переднюю часть скопировали с «пятнашки», а все остальное появилось чуть ли не спонтанно. Вообще, за основу новой модели были взяты сразу две машины – ВАЗ 2115 и ВАЗ 2108, однако инженерам пришлось немало повозиться, чтобы избавить новое авто от недостатков этих двух тачек. У восьмерки изъянов практически не было, а вот «пятнашка» страдала неравномерным распределением нагрузки на оси. Вазовцы поднапряглись и нашли решение, слегка округлив переднюю часть машины за счет чего воздушные потоки во время движения авто уходили наверх, а не под капот, как у ВАЗ 2115. <br> </p>
+
+	<p>Сколько еще длилась бы эпопея с «четыркой», неизвестно, но АвтоВАЗ в 2013 году завершил выпуск автомобилей этой серии и теперь машинку можно купить лишь с рук.
+</p>
+  
+        </details>&nbsp;<h2>Плюсы ВАЗ 2114</h2>
+          <p class="news"><span class="date">1 плюс -  </span>Низкая стоимость непосредственно автомобиля и запчастей к нему. Все комплектующие всегда есть в наличии, а ремонт может производиться в любом уголке РФ либо же своими руками.</p>
+          <p class="news"><span class="date">2 плюс -  </span>Удачные и тяговитые двигатели. Конкретно это касается 1,6-литровых моторов, мощности которых хватает не только для комфортного передвижения в городе, но и при обгонах на трассе</p>
+          <p class="news"><span class="date">3 плюс -  </span>Высокая топливная экономичность. Реальный расход «четырки» составляет 7-8 литров бензина на сотню километров пробега, а это очень хороший показатель</p>
+          <p class="news"><span class="date">4 плюс -  </span>Манёвренность на дороге. Владельцы уверяют, что машина отлично управляется и особенно хорошо ведёт себя в поворотах</p>
+          <p class="news"><span class="date">5 плюс - </span>Внешний вид. «Лада 14» выглядит намного современнее ВАЗ-2112 или той же «девятки»</p>
+          
+	<table>
+        <tr>
+          <td class="table-cell" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+          <td class="table-cell" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+          <td class="table-cell-alternate" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+        </tr>
+        <tr>
+          <td class="table-cell" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+          <td class="table-cell-alternate" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+          <td class="table-cell-alternate" onmouseover="toggleCellStyle(this)" onmouseout="toggleCellStyle(this)">Четырка</td>
+        </tr>
+      </table>
+     
+<button class = "buttonstyle" onclick="hideMiddleImage()">Скрыть рисунок</button>
+<button class = "buttonstyle" onclick="showMiddleImage()">Показать рисунки</button>
+<button class = "buttonstyle" onclick="swapLayers()">Поменять картинки</button>
+
+<img src="image1.jpg" class="image" style="z-index: 3;"img.style.paddingLeft="1.5cm"; name="image1" >
+<img src="image2.jpg" class="image" style="z-index: 2;"img.style.paddingLeft="1.5cm"; name="image2">
+<img src="image3.jpg" class="image" style="z-index: 1;"img.style.paddingLeft="1.5cm"; name="image3">
+
+</main>
+</div> 
+</body>
+</html>
